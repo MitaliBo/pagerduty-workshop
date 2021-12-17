@@ -59,8 +59,8 @@ pipelines:
         type: DockerPush
         configuration:
           affinityGroup: docker_build
-          autoPublishBuildInfo: false
-          forceXrayScan: true
+          autoPublishBuildInfo: true
+          forceXrayScan: false
           targetRepository: {{ .Values.Artifactory.devRepo }}
           integrations:
             - name:  {{ .Values.Artifactory.intName }}
