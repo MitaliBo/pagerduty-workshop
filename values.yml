@@ -12,7 +12,7 @@ GitHub:
 AWS:
   intName: aws_integration
   eks: eks_integration
-  region: us-west-2
+  region: us-west-1
 app:
   dockerImageName: mitalibo.jfrog.io/workshop-docker/pagerduty-workshop-app #change to your servername
   dockerFileLocation: workshop-app
