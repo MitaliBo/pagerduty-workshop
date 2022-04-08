@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name:  workshop-app
-          image: pagerduty-workshop-app # IMPORTANT: Update!
+          image: imageName # IMPORTANT: Update!
           imagePullPolicy: Always
           ports:
             - containerPort: 443
