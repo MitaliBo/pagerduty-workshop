@@ -12,7 +12,7 @@ resources:
   - name: dockerImage
     type: Image
     configuration:
-      registry: partnership-workshop-docker-local.jfrog.io
+      registry: {{ .Values.Artifactory.intName }}
       sourceRepository: {{ .Values.Artifactory.devRepo }}
       imageName: {{ .Values.app.dockerImageName }}
       imageTag: ${run_number}
