@@ -1,6 +1,6 @@
 Artifactory:
   server: partnership.jfrog.io #change to your servername
-  intName: art_integration
+  intName: artifactory_integration
   devRepo: workshop-docker-local
   prodRepo: workshop-docker-prod-local
 PagerDuty:
