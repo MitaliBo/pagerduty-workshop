@@ -1,11 +1,11 @@
 Artifactory:
-  server: partnership-workshop-docker.jfrog.io #change to your servername
+  server: mitalipd.jfrog.io #change to your servername
   intName: artifactory_integration
   devRepo: workshop-docker-local
   prodRepo: workshop-docker-prod-local
 PagerDuty:
   intName: pagerduty_integration
-  pipelinesRoutingKey: a45458d2edaf4001d0b6a3b522a57169 #change to your pagerduty pipelines integration key
+  pipelinesRoutingKey: 5f99cc90ea11490cd0cd3c07645a39e0 #change to your pagerduty pipelines integration key
 GitHub:
   path: MitaliBo/pagerduty-workshop #change to your github username
   gitProvider: github_integration
@@ -14,6 +14,6 @@ AWS:
   eks: eks_integration
   region: us-west-2
 app:
-  dockerImageName: partnership-workshop-docker.jfrog.io/pagerduty-workshop-app #change to your servername
+  dockerImageName: mitalipd.jfrog.io/pagerduty-workshop-app #change to your servername
   dockerFileLocation: workshop-app
   buildName: pagerduty-workshop-app
